@@ -4,6 +4,7 @@
     --accent-color: rgba(33, 150, 243, 1);
     --background-secondary-color: rgba(245, 244, 250, 1);
     --hero-and-footer-color:rgba(47, 48, 58, 1);
+    --clients-color:#AFB1B8;
 
 }
 body {
@@ -173,7 +174,7 @@ fill:currentColor;
 }
 
 .email:hover .auth-icon {
-fill:var(--accent-color)
+fill:var(--accent-color);
 }
 
 
@@ -315,7 +316,7 @@ text-transform: uppercase;
 
 .padding-desc {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
 }
 
 
@@ -356,8 +357,9 @@ text-transform: uppercase;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+ }
 
-}
 .team-icon + .team-icon {
     margin-left: 10px;
 }
@@ -371,6 +373,8 @@ text-transform: uppercase;
     justify-content: center;
 }
 .team-svg{
+    display: block;
+    margin:auto;
     fill:#afb1b8;
 }
 
@@ -408,6 +412,52 @@ text-transform: uppercase;
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Our clients */
+
+.clients {
+    display:flex;
+}
+
+.client-item {
+    display: block;
+}
+.client-item + .client-item {
+    margin-left: 30px;
+}
+
+.client-svg {
+    display: block;
+    margin: auto;
+    fill:#afb1b8;
+    fill:currentColor;
+    
+}
+
+.client-link {
+    display: block;
+}
+ .client-icon {
+     width: 170px;
+     height:92px;
+     display: flex;
+     border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: var(--clients-color);
+ }
+
+ .client-icon:hover {
+     border-color: var(--accent-color);
+ }
+ .client-icon:hover .client-svg {
+     fill:var(--accent-color);
+ }
+
+ .section-title {
+     margin-bottom: 50px;
+ }
+/* footer */
+
 
 .logo-footer {
     display: block;
@@ -473,6 +523,8 @@ width: 1px;
 .email-foot {
     color:rgba(255, 255, 255, 0.6)
 }
+
+
 
  /* from here starting adding additional styles for portfolio.html */
  
