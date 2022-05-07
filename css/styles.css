@@ -493,6 +493,7 @@ text-transform: uppercase;
 
 .container-footer {
     margin-top: 0px;
+    display: flex;
    
 }
 
@@ -524,6 +525,77 @@ width: 1px;
     color:rgba(255, 255, 255, 0.6)
 }
 
+/* test!! */
+
+/* .test-item {
+    display: block;
+}
+
+.test-item + .test-item {
+    margin-left: 20px;
+}
+.list-test {
+    display: flex;
+    justify-content: center;
+}
+.test-link {
+    display: flex;
+    border: 3px solid teal;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+        justify-content: center;
+align-items: center;}
+.test-svg {
+    display: block;
+} */
+
+
+/* social-media NEW */
+.h3-color {
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding-top: 12px;
+}
+.social {
+    margin-left: 70px;
+    /* outline: 2px solid tomato; */
+}
+
+.footer-icon-container {
+    padding-left: 0px;
+    display: flex;
+    /* outline: 1px solid teal; */
+}
+
+.icon-item {
+    display: block;
+}
+.icon-item + .icon-item {
+    margin-left: 10px;
+}
+.icon-link {
+    color: #ffffff;
+    display:flex;
+    width: 44px;
+    height: 44px;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.icon-svg {
+    display: block;
+    fill:#ffffff;
+}
+.icon-link:hover {
+    background-color: var(--accent-color);
+}
+
+
+.address-block {
+    /* outline: 1px solid tomato; */
+}
 
 
  /* from here starting adding additional styles for portfolio.html */
