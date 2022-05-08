@@ -178,6 +178,7 @@ padding-left: 0px;}
 .auth-icon {
     margin-right: 10px;
 fill:currentColor;
+vertical-align: middle;
 /* outline: 1 px solid tomato; */
 }
 
