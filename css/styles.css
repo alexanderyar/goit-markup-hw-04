@@ -336,7 +336,7 @@ text-transform: uppercase;
 
 .padding-desc {
     padding-top: 30px;
-    padding-bottom: 0px;
+    padding-bottom:30px;
     padding-right: 32px;
     padding-left: 32px;
 }
@@ -400,9 +400,9 @@ text-transform: uppercase;
 
 .icon-container {
     margin:0px;
-    padding-top: 16px;
+    margin-top: 16px;
    
-    padding-bottom: 30px;
+    
    
     justify-content: center;
 }
@@ -462,27 +462,26 @@ text-transform: uppercase;
 .client-svg {
     display: block;
     margin: auto;
-    fill:#afb1b8;
     fill:currentColor;
-    
-}
+    }
 
 .client-link {
     display: block;
-}
- .client-icon {
-     width: 170px;
-     height:92px;
-     display: flex;
-     border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    color: var(--clients-color);
- }
+            width: 170px;
+            height: 92px;
+            display: flex;
+            border: 1px solid #AFB1B8;
+            border-radius: 4px;
+            color: var(--clients-color);
+            /* outline: 1px solid teal; */
+        }
 
- .client-icon:hover {
+
+
+ .client-link:hover {
      border-color: var(--accent-color);
  }
- .client-icon:hover .client-svg {
+ .client-link:hover .client-svg {
      fill:var(--accent-color);
  }
 
@@ -717,7 +716,8 @@ color: var(--primary-text-color);
     margin-right: 30px;
     margin-bottom: 30px;
 }
-.please-the-mentor .item:hover {
+.please-the-mentor:hover {
+    display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
     0px 4px 4px rgba(0, 0, 0, 0.06), 
     1px 4px 6px rgba(0, 0, 0, 0.16);
